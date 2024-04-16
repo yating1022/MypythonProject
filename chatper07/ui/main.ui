@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>实验7</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_7">
+    <property name="title">
+     <string>实验7</string>
+    </property>
+    <addaction name="CNY_USD"/>
+    <addaction name="separator"/>
+    <addaction name="fact"/>
+    <addaction name="separator"/>
+    <addaction name="caipiao"/>
+    <addaction name="separator"/>
+    <addaction name="Logout"/>
+   </widget>
+   <addaction name="menu_7"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="CNY_USD">
+   <property name="text">
+    <string>货币转换</string>
+   </property>
+  </action>
+  <action name="fact">
+   <property name="text">
+    <string>因式分解</string>
+   </property>
+  </action>
+  <action name="caipiao">
+   <property name="text">
+    <string>彩票</string>
+   </property>
+  </action>
+  <action name="Logout">
+   <property name="text">
+    <string>装饰器日志</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
