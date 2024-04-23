@@ -46,9 +46,9 @@ class An02sysui(QWidget):
             else:
                 print(ip, "不通")
             print(iplist)
-        with open('ip.txt', 'w') as f:
+        with open('../ip.txt', 'w') as f:
             f.writelines(iplist)
-app = QApplication([])
-windows = An02sysui()
-windows.show()
-app.exec_()
+# app = QApplication([])
+# windows = An02sysui()
+# windows.show()
+# app.exec_()

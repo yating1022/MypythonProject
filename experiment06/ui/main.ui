@@ -27,9 +27,9 @@
     <property name="title">
      <string>实验6</string>
     </property>
-    <addaction name="actionsasdasda"/>
+    <addaction name="action1"/>
     <addaction name="separator"/>
-    <addaction name="actionasas"/>
+    <addaction name="action2"/>
     <addaction name="separator"/>
     <addaction name="action3"/>
     <addaction name="separator"/>
@@ -40,12 +40,12 @@
    <addaction name="menu_6"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionsasdasda">
+  <action name="action1">
    <property name="text">
     <string>任务1：进度条模拟</string>
    </property>
   </action>
-  <action name="actionasas">
+  <action name="action2">
    <property name="text">
     <string>任务2：查看区域网设备</string>
    </property>

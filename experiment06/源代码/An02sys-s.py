@@ -33,7 +33,7 @@ def ping(net, start=1, end=16, n=1, w=1):
         else:
             print(ip, "不通")
         print(iplist)
-    with open('ip.txt', 'w') as f:
+    with open('../ip.txt', 'w') as f:
         f.writelines(iplist)
 def main():
     ping("192.168.2")
