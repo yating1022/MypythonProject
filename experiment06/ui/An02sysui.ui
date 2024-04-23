@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>655</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>扫描区域网设备</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="iplineEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>261</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>输入网段：如192.168.2</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="startlineEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>160</y>
+     <width>261</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>输入开始的ip，如：1</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="endlineEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>230</y>
+     <width>261</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>输入结束的ip，如：32</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>300</y>
+     <width>106</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始扫描</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>50</y>
+     <width>321</width>
+     <height>271</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labeltime">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>350</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
