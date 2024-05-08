@@ -10,3 +10,6 @@ import sys
 
 BASE_PATH = os.path.dirname(os.getcwd())
 sys.path.insert(0,BASE_PATH)
+from  proj.src import main
+if __name__ == '__main__':
+    main.main()
