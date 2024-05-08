@@ -11,9 +11,9 @@ from proj.src.teacher import Teacher
 
 
 class Manager:
-    info = [('查看教师',"show_teacher"),('创建教师','create_teacher'),('删除教师',"delete_teacher"),("推出",'exit')]
+    info = [('查看教师','show_teacher'),('创建教师','create_teacher'),('删除教师','delete_teacher'),("退出",'exit')]
     def __init__(self):
-        self.techer_pickle_obj = MyPickle(techer_file)
+        self.teacher_pickle_obj = MyPickle(techer_file)
     def show(self,pickle_obj):
         pick_obj = getattr(self,pickle_obj)
         data_info = pick_obj.readiter()
